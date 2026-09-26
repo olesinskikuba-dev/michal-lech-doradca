@@ -1,0 +1,606 @@
+<!DOCTYPE html><html lang="pl"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-fixed-dim":"#fde68a","surface-container-low":"#f8fafc","tertiary-container":"#d97706","inverse-surface":"#0f172a","on-background":"#0f2744","inverse-on-surface":"#f8fafc","on-primary":"#ffffff","background":"#ffffff","surface-container":"#f1f5f9","tertiary-fixed-dim":"#f59e0b","on-secondary-fixed-variant":"#78350f","primary-fixed":"#e0e7ff","outline-variant":"#cbd5e1","surface-container-high":"#e2e8f0","on-primary-fixed":"#0f2744","tertiary":"#d97706","surface":"#ffffff","on-tertiary":"#ffffff","on-tertiary-fixed":"#451a03","surface-variant":"#e2e8f0","on-primary-fixed-variant":"#1e3a8a","primary":"#0f2744","on-surface":"#0f2744","tertiary-fixed":"#fef3c7","on-error-container":"#93000a","on-primary-container":"#0f2744","primary-fixed-dim":"#bfdbfe","outline":"#64748b","surface-container-highest":"#e2e8f0","secondary-container":"#fef3c7","on-secondary":"#ffffff","surface-tint":"#1e3a8a","primary-container":"#1e3a8a","on-error":"#ffffff","inverse-primary":"#93c5fd","surface-dim":"#e2e8f0","on-secondary-fixed":"#451a03","on-secondary-container":"#92400e","on-tertiary-container":"#ffffff","secondary-fixed":"#fde68a","secondary":"#d97706","surface-container-lowest":"#ffffff","on-surface-variant":"#475569","surface-bright":"#ffffff","error-container":"#ffdad6","error":"#ba1a1a","on-tertiary-fixed-variant":"#78350f"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{},"fontFamily":{"headline":["Public Sans"],"display":["Public Sans"],"body":["Public Sans"],"label":["Public Sans"]},"fontSize":{}}}}</script></head><body class="bg-surface font-body text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-[0_1px_8px_rgba(15,39,68,0.06)] border-b border-slate-100"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6"><div class="flex items-center gap-3 shrink-0"><img alt="Michał Lech - Kierownik Okręgu OVB" class="h-11 w-auto object-contain" src="assety/obraz_1.jpg"></div><nav class="hidden md:flex items-center gap-8" data-active-classes="text-primary font-semibold relative after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:bg-secondary"><a class="text-sm text-slate-600 hover:text-primary font-medium transition-colors py-1" data-path="strona-glowna" href="#">Strona główna</a><a class="text-sm text-slate-600 hover:text-primary font-medium transition-colors py-1" data-path="uslugi" href="#">Usługi</a><a class="text-sm text-slate-600 hover:text-primary font-medium transition-colors py-1" data-path="o-mnie" href="#">O mnie</a><a class="text-sm text-slate-600 hover:text-primary font-medium transition-colors py-1" data-path="kontakt" href="#">Kontakt</a></nav><div class="flex items-center gap-4 shrink-0"><a class="hidden lg:flex items-center text-sm font-semibold text-primary hover:text-secondary transition-colors gap-2" href="tel:+48505035485"><span class="material-symbols-outlined text-[20px] text-secondary">call</span>+48 505 035 485</a><a class="inline-flex items-center justify-center px-4 py-2.5 bg-primary hover:bg-[#1e3a8a] text-white text-sm font-semibold rounded-xl transition-all shadow-[0_2px_8px_rgba(15,39,68,0.15)]" data-path="darmowa-konsultacja" href="#hero-consultation-form">Darmowa konsultacja</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-white text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-white py-12 lg:py-20">
+<!-- Decorative Ambient Glows -->
+<div class="pointer-events-none absolute -top-24 left-1/4 h-96 w-96 rounded-full bg-blue-100/60 opacity-60 blur-3xl"></div>
+<div class="pointer-events-none absolute top-1/2 right-0 h-[480px] w-[480px] rounded-full bg-amber-50/70 opacity-60 blur-3xl"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Content -->
+<div class="lg:col-span-7 flex flex-col items-start">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-blue-900 border border-blue-100 font-label text-xs font-bold tracking-wide uppercase shadow-sm mb-6">
+<span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+            Certyfikowany Doradca OVB Allfinanz
+          </div>
+<h1 class="text-4xl sm:text-5xl lg:text-6xl font-headline font-bold text-[#0F2744] tracking-tight leading-[1.12]">
+            Zabezpiecz swoją <span class="text-[#1E3A8A]">przyszłość i finanse</span> z ekspertem.
+          </h1>
+<p class="mt-6 text-lg sm:text-xl text-slate-600 font-normal leading-relaxed max-w-xl">
+            Profesjonalne doradztwo w zakresie ubezpieczeń i kredytów. Wybieramy najkorzystniejsze oferty z rynku – oszczędź czas i pieniądze bez zbędnego stresu.
+          </p>
+<!-- Advisor preview snippet -->
+<div class="mt-8 flex items-center gap-5 p-3 pr-6 rounded-2xl bg-slate-50 border border-slate-200/80 shadow-sm">
+<div class="relative w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-sm">
+<img alt="Michał Lech - Kierownik Okręgu OVB" class="w-full h-full object-cover" src="assety/portret.png">
+</div>
+<div class="flex flex-col">
+<span class="text-base font-headline font-bold text-[#0F2744]">Michał Lech</span>
+<span class="text-xs font-label text-slate-600">Kierownik Okręgu OVB • Doradca Finansowy</span>
+<div class="flex items-center gap-1 mt-1 text-amber-500">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-xs font-bold text-[#0F2744] ml-1">5.0 / 5.0</span>
+</div>
+</div>
+</div>
+<!-- Trust Badges Row -->
+<div class="mt-8 grid grid-cols-3 gap-4 w-full max-w-lg pt-6 border-t-0">
+<div class="flex flex-col">
+<span class="text-2xl font-bold font-headline text-[#0F2744]">10+ lat</span>
+<span class="text-xs text-slate-600 font-medium mt-0.5">doświadczenia na rynku</span>
+</div>
+<div class="flex flex-col">
+<span class="text-2xl font-bold font-headline text-[#0F2744]">500+</span>
+<span class="text-xs text-slate-600 font-medium mt-0.5">zadowolonych rodzin</span>
+</div>
+<div class="flex flex-col">
+<span class="text-2xl font-bold font-headline text-[#0F2744]">0 zł</span>
+<span class="text-xs text-slate-600 font-medium mt-0.5">kosztów doradztwa</span>
+</div>
+</div>
+</div>
+<!-- Right: Consultation Form Card -->
+<div class="lg:col-span-5 w-full">
+<div class="relative bg-white rounded-3xl p-8 sm:p-10 shadow-xl border border-slate-100">
+<div class="absolute -top-3 right-8 bg-amber-500 text-white font-headline text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+              Szybka odpowiedź 24h
+            </div>
+<div class="flex flex-col">
+<span class="text-xs font-label uppercase tracking-widest text-[#1E3A8A] font-bold">Bezpłatny start</span>
+<h2 class="text-2xl sm:text-3xl font-headline font-bold text-[#0F2744] mt-1">Umów bezpłatną konsultację</h2>
+<p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Wypełnij formularz, oddzwonię w ciągu 24h z przygotowanym wstępnym planem.
+              </p>
+</div>
+<form class="mt-6 flex flex-col gap-4" id="hero-consultation-form" onsubmit="event.preventDefault(); alert('Dziękuję za zgłoszenie! Skontaktuję się w ciągu 24h.');">
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-label font-semibold text-[#0F2744]" for="lead-name">Imię i nazwisko</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-slate-400">person</span>
+<input class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 text-[#0F2744] placeholder:text-slate-400 text-sm rounded-xl focus:outline-none focus:bg-white focus:border-[#1E3A8A] transition-colors" id="lead-name" placeholder="np. Jan Kowalski" required="" type="text">
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-label font-semibold text-[#0F2744]" for="lead-phone">Numer telefonu</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-slate-400">call</span>
+<input class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 text-[#0F2744] placeholder:text-slate-400 text-sm rounded-xl focus:outline-none focus:bg-white focus:border-[#1E3A8A] transition-colors" id="lead-phone" placeholder="+48 ___ ___ ___" required="" type="tel">
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-label font-semibold text-[#0F2744]" for="lead-email">Adres e-mail</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-slate-400">mail</span>
+<input class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 text-[#0F2744] placeholder:text-slate-400 text-sm rounded-xl focus:outline-none focus:bg-white focus:border-[#1E3A8A] transition-colors" id="lead-email" placeholder="jan.kowalski@poczta.pl" required="" type="email">
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-label font-semibold text-[#0F2744]" for="lead-topic">W czym mogę pomóc?</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-slate-400">tune</span>
+<select class="w-full pl-10 pr-8 py-3 bg-slate-50 border border-slate-200 text-[#0F2744] text-sm rounded-xl focus:outline-none focus:bg-white focus:border-[#1E3A8A] transition-colors appearance-none cursor-pointer" id="lead-topic">
+<option value="life">Ubezpieczenie na życie i zdrowie</option>
+<option value="mortgage">Kredyt hipoteczny (nowy lub refinansowanie)</option>
+<option value="property">Majątek prywatny i ubezpieczenie firmy</option>
+<option value="cash">Kredyt gotówkowy / konsolidacja</option>
+<option value="other">Inna sprawa finansowa</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 text-[18px] text-slate-400">expand_more</span>
+</div>
+</div>
+<button class="mt-2 w-full py-4 px-6 bg-amber-600 hover:bg-amber-500 text-white font-headline font-bold text-sm tracking-wide rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2" type="submit">
+<span>Odbierz darmową konsultację</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<div class="flex items-center justify-center gap-2 text-xs text-slate-500 mt-1">
+<span class="material-symbols-outlined text-[15px] text-amber-600">lock</span>
+<span>100% dyskrecji i bezpłatna, niezobowiązująca analiza</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SOCIAL PROOF / OPINIE KLIENTÓW -->
+<section class="w-full bg-slate-50 border-y border-slate-100 py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header with Overall Rating -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div>
+<span class="text-xs font-label uppercase tracking-widest text-[#1E3A8A] font-bold">Case Study &amp; Zaufanie</span>
+<h2 class="text-3xl sm:text-4xl font-headline font-bold text-[#0F2744] mt-2 tracking-tight">Opinie Klientów</h2>
+<p class="text-slate-600 text-base mt-2 max-w-xl">
+            Zobacz, jak pomagam w realizacji celów finansowych i bezpieczeństwie rodzin.
+          </p>
+</div>
+<!-- Rating Pill -->
+<div class="inline-flex items-center gap-3 bg-white border border-slate-200/80 px-5 py-3 rounded-2xl shadow-sm self-start md:self-auto">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex flex-col">
+<span class="text-sm font-headline font-bold text-[#0F2744] leading-tight">5.0 ★★★★★</span>
+<span class="text-xs font-label text-slate-500 leading-tight">z ponad 120 zweryfikowanych opinii</span>
+</div>
+</div>
+</div>
+<!-- Testimonial Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Review 1 -->
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="material-symbols-outlined text-slate-300 text-3xl">format_quote</span>
+</div>
+<p class="text-slate-700 text-sm sm:text-base leading-relaxed italic">
+              „Pan Michał pomógł nam uzyskać świetny kredyt na wymarzony dom, negocjując warunki, których sami nigdy byśmy nie wywalczyli w banku. Pełen profesjonalizm i spokój!”
+            </p>
+</div>
+<div class="mt-6 pt-5 border-t border-slate-100 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-[#0F2744] font-bold text-sm">
+              TA
+            </div>
+<div class="flex flex-col">
+<span class="text-sm font-headline font-bold text-[#0F2744]">Tomasz i Anna K.</span>
+<span class="text-xs font-label text-slate-500">Kielce • Kredyt hipoteczny</span>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="material-symbols-outlined text-slate-300 text-3xl">format_quote</span>
+</div>
+<p class="text-slate-700 text-sm sm:text-base leading-relaxed italic">
+              „Kompleksowo uporządkował polisy na życie i majątek w naszej firmie. Wreszcie wiem, za co płacę i mam pewność, że moja rodzina oraz przedsiębiorstwo są w 100% bezpieczne.”
+            </p>
+</div>
+<div class="mt-6 pt-5 border-t border-slate-100 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-800 font-bold text-sm">
+              MW
+            </div>
+<div class="flex flex-col">
+<span class="text-sm font-headline font-bold text-[#0F2744]">Marek W.</span>
+<span class="text-xs font-label text-slate-500">Przedsiębiorca • Polisy firmowe &amp; OC</span>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="material-symbols-outlined text-slate-300 text-3xl">format_quote</span>
+</div>
+<p class="text-slate-700 text-sm sm:text-base leading-relaxed italic">
+              „Szybko, konkretnie i bez owijania w bawełnę. Dzięki panu Michałowi zaoszczędziliśmy kilkanaście tysięcy złotych na całkowitym koszcie kredytu i prowizjach bankowych.”
+            </p>
+</div>
+<div class="mt-6 pt-5 border-t border-slate-100 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 font-bold text-sm">
+              KS
+            </div>
+<div class="flex flex-col">
+<span class="text-sm font-headline font-bold text-[#0F2744]">Karolina S.</span>
+<span class="text-xs font-label text-slate-500">Kielce • Refinansowanie kredytu</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- USŁUGI (SERVICES GRID) -->
+<section class="w-full bg-white py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-xs font-label uppercase tracking-widest text-[#1E3A8A] font-bold">Oferta Doradcza</span>
+<h2 class="text-3xl sm:text-4xl font-headline font-bold text-[#0F2744] mt-2 tracking-tight">Kompleksowe Usługi Finansowe</h2>
+<p class="text-slate-600 text-base mt-3 leading-relaxed">
+          Indywidualne rozwiązania dopasowane do Twoich aktualnych potrzeb życiowych i biznesowych.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="group bg-slate-50 hover:bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 hover:border-slate-200 transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-xl bg-blue-100 text-[#0F2744] flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">family_restroom</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-[#0F2744]">Ubezpieczenia na życie</h3>
+<p class="text-xs text-slate-500 mt-1 font-medium">Ochrona bliskich w nieprzewidzianych sytuacjach</p>
+<ul class="mt-6 space-y-3">
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Zabezpieczenie finansowe Twojej rodziny</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Fundusz na bezpieczną przyszłość dzieci</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Wysokie sumy gwarantowane w polisach zdrowotnych</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 inline-flex items-center justify-between text-xs font-headline font-bold text-[#0F2744] hover:text-amber-600 group-hover:translate-x-1 transition-all" href="#hero-consultation-form">
+<span>Dowiedz się więcej</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 2 -->
+<div class="group bg-slate-50 hover:bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 hover:border-slate-200 transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">shield_with_heart</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-[#0F2744]">Ubezpieczenia majątkowe i firmowe</h3>
+<p class="text-xs text-slate-500 mt-1 font-medium">Spokojny sen dla Twojego dobytku i biznesu</p>
+<ul class="mt-6 space-y-3">
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Ochrona domu, mieszkania i wyposażenia</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>OC zawodowe i polisy dla przedsiębiorstw</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Gwarancja ciągłości operacyjnej firmy</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 inline-flex items-center justify-between text-xs font-headline font-bold text-[#0F2744] hover:text-amber-600 group-hover:translate-x-1 transition-all" href="#hero-consultation-form">
+<span>Dowiedz się więcej</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 3 -->
+<div class="group bg-slate-50 hover:bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 hover:border-slate-200 transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-xl bg-blue-50 text-[#1E3A8A] flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">home_work</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-[#0F2744]">Kredyty hipoteczne</h3>
+<p class="text-xs text-slate-500 mt-1 font-medium">Sfinansuj wymarzone mieszkanie lub budowę</p>
+<ul class="mt-6 space-y-3">
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Porównanie ofert ponad 15 banków jednocześnie</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Pomoc w kompletowaniu dokumentów i wniosków</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Negocjacja marży bankowej – 0 zł za doradztwo</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 inline-flex items-center justify-between text-xs font-headline font-bold text-[#0F2744] hover:text-amber-600 group-hover:translate-x-1 transition-all" href="#hero-consultation-form">
+<span>Dowiedz się więcej</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 4 -->
+<div class="group bg-slate-50 hover:bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 hover:border-slate-200 transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-xl bg-slate-200 text-[#0F2744] flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">payments</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-[#0F2744]">Kredyty gotówkowe</h3>
+<p class="text-xs text-slate-500 mt-1 font-medium">Dodatkowy kapitał i konsolidacja rat</p>
+<ul class="mt-6 space-y-3">
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Połączenie wielu drogich rat w jedną niższą</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Szybka decyzja kredytowa i minimum formalności</span>
+</li>
+<li class="flex items-start gap-2.5 text-xs text-slate-600">
+<span class="material-symbols-outlined text-amber-600 text-[16px] shrink-0 mt-0.5">check_circle</span>
+<span>Elastyczny okres spłaty i przejrzyste zasady</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 inline-flex items-center justify-between text-xs font-headline font-bold text-[#0F2744] hover:text-amber-600 group-hover:translate-x-1 transition-all" href="#hero-consultation-form">
+<span>Dowiedz się więcej</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- O MNIE (ABOUT ME) -->
+<section class="w-full bg-slate-50 border-y border-slate-100 py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left: Image with floating badge -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md lg:max-w-none">
+<!-- Background accent offset -->
+<div class="absolute -inset-4 bg-blue-100 rounded-3xl -rotate-2 opacity-80"></div>
+<!-- Photo Card -->
+<div class="relative bg-white p-3 rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+<img alt="Michał Lech - Ekspert Finansowy OVB" class="w-full h-auto aspect-square object-cover rounded-2xl" src="assety/portret.png">
+</div>
+<!-- Floating Badge -->
+<div class="absolute -bottom-6 -right-4 bg-white text-[#0F2744] p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-amber-500 flex items-center justify-center text-white shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="text-base font-headline font-bold text-[#0F2744] leading-tight">10+ Lat</span>
+<span class="text-xs font-label text-slate-500 leading-tight">na rynku finansowym</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Text & Stats -->
+<div class="lg:col-span-7 flex flex-col items-start lg:pl-6">
+<span class="inline-block px-3.5 py-1 rounded-full bg-blue-50 text-[#1E3A8A] border border-blue-100 font-label text-xs font-bold uppercase tracking-wider mb-3">
+            Kierownik Okręgu OVB Allfinanz Polska
+          </span>
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-headline font-bold text-[#0F2744] tracking-tight leading-tight">
+            Michał Lech – Twój zaufany doradca finansowy
+          </h2>
+<p class="mt-6 text-slate-600 text-base leading-relaxed">
+            W świecie skomplikowanych umów bankowych i ubezpieczeniowych stawiam na przejrzystość, spokój i realną korzyść klienta. Nie reprezentuję pojedynczego banku ani towarzystwa – działam wyłącznie w Twoim interesie.
+          </p>
+<!-- Highlights (no wall of text) -->
+<div class="mt-8 space-y-4 w-full">
+<div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200/70 shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center text-[#1E3A8A] shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</div>
+<div class="flex flex-col">
+<span class="text-sm font-headline font-bold text-[#0F2744]">Dostęp do ofert czołowych instytucji finansowych i ubezpieczycieli w Polsce</span>
+<span class="text-xs text-slate-500 mt-0.5 leading-relaxed">Porównujemy aktualne stawki rynkowe, eliminując zbędne opłaty i prowizje.</span>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200/70 shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-amber-50 flex items-center justify-center text-amber-700 shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">handshake</span>
+</div>
+<div class="flex flex-col">
+<span class="text-sm font-headline font-bold text-[#0F2744]">Indywidualne podejście – dopasowuję rozwiązania do Ciebie, a nie banków</span>
+<span class="text-xs text-slate-500 mt-0.5 leading-relaxed">Każda rodzina i firma ma inny budżet oraz priorytety. Otrzymujesz plan skrojony na miarę.</span>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200/70 shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center text-[#0F2744] shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="text-sm font-headline font-bold text-[#0F2744]">Darmowa pomoc doradcy na każdym etapie</span>
+<span class="text-xs text-slate-500 mt-0.5 leading-relaxed">Od pierwszej analizy budżetu domowego, przez negocjacje warunków, aż po uruchomienie środków.</span>
+</div>
+</div>
+</div>
+<!-- Numbers row -->
+<div class="mt-8 grid grid-cols-3 gap-6 w-full pt-4">
+<div class="flex flex-col">
+<span class="text-3xl font-headline font-bold text-[#0F2744]">500+</span>
+<span class="text-xs text-slate-500 font-medium mt-1">obsłużonych klientów</span>
+</div>
+<div class="flex flex-col">
+<span class="text-3xl font-headline font-bold text-[#0F2744]">15+</span>
+<span class="text-xs text-slate-500 font-medium mt-1">instytucji partnerskich</span>
+</div>
+<div class="flex flex-col">
+<span class="text-3xl font-headline font-bold text-[#0F2744]">100%</span>
+<span class="text-xs text-slate-500 font-medium mt-1">niezależności doradczej</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- KORZYŚCI / KONKRETY (BENEFITS 3-COLUMN) -->
+<section class="w-full bg-white py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-xs font-label uppercase tracking-widest text-[#1E3A8A] font-bold">Standard Pracy</span>
+<h2 class="text-3xl sm:text-4xl font-headline font-bold text-[#0F2744] mt-2 tracking-tight">Dlaczego warto ze mną współpracować?</h2>
+<p class="text-slate-600 text-base mt-3">
+          Przejrzyste zasady bez małych druczków i marketingowych trików.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Benefit 1 -->
+<div class="relative bg-slate-50 p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow flex flex-col items-start">
+<div class="w-16 h-16 rounded-2xl bg-[#0F2744] text-white flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-[32px]">schedule</span>
+</div>
+<span class="text-xs font-label uppercase font-bold text-[#1E3A8A] tracking-wider">Krok 01</span>
+<h3 class="text-2xl font-headline font-bold text-[#0F2744] mt-1">Oszczędność czasu</h3>
+<p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Zamiast tracić dni na wizyty w 10 bankach i ubezpieczalniach, całą procedurę załatwiasz podczas jednego spotkania w dogodnym dla Ciebie terminie.
+          </p>
+</div>
+<!-- Benefit 2 -->
+<div class="relative bg-slate-50 p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow flex flex-col items-start">
+<div class="w-16 h-16 rounded-2xl bg-amber-500 text-white flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-[32px]">price_check</span>
+</div>
+<span class="text-xs font-label uppercase font-bold text-amber-700 tracking-wider">Krok 02</span>
+<h3 class="text-2xl font-headline font-bold text-[#0F2744] mt-1">Brak ukrytych kosztów</h3>
+<p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Moje doradztwo jest w 100% bezpłatne dla klienta. Rozliczam się bezpośrednio z instytucjami partnerskimi bez doliczania jakiejkolwiek marży po Twojej stronie.
+          </p>
+</div>
+<!-- Benefit 3 -->
+<div class="relative bg-slate-50 p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow flex flex-col items-start">
+<div class="w-16 h-16 rounded-2xl bg-[#1E3A8A] text-white flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-[32px]">balance</span>
+</div>
+<span class="text-xs font-label uppercase font-bold text-[#1E3A8A] tracking-wider">Krok 03</span>
+<h3 class="text-2xl font-headline font-bold text-[#0F2744] mt-1">Niezależne doradztwo</h3>
+<p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Nie jestem powiązany umową na wyłączność z żadną instytucją. Moim priorytetem jest Twój zysk, realna ochrona i najkorzystniejsze warunki na rynku finansowym.
+          </p>
+</div>
+</div>
+<!-- Prestigious Navy Audit Banner -->
+<div class="mt-14 bg-gradient-to-r from-[#0F2744] to-[#172554] text-white rounded-3xl p-8 sm:p-12 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl border border-blue-900/40">
+<div class="flex flex-col text-center md:text-left">
+<h4 class="text-2xl sm:text-3xl font-headline font-bold">Chcesz bezpłatnie przeanalizować swoje obecne umowy?</h4>
+<p class="text-sm text-slate-300 mt-1 max-w-xl">
+            Sprawdźmy, czy nie przepłacasz za obecny kredyt lub polisę. Trwa to tylko kilkanaście minut.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 px-8 py-4 bg-amber-600 hover:bg-amber-500 text-white font-headline font-bold text-sm rounded-xl shadow-md hover:shadow-lg transition-all shrink-0" href="#hero-consultation-form">
+<span>Umów audyt polis i rat</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- FOOTER & DIRECT CONTACT SECTION -->
+<section class="w-full bg-[#0F2744] text-slate-100 py-16 lg:py-20 border-t border-slate-800">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+<!-- Left Column: Direct info -->
+<div class="lg:col-span-6 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-950 text-blue-200 border border-blue-800 text-xs font-label uppercase font-bold tracking-wider mb-4">
+              Kontakt Bezpośredni
+            </div>
+<h3 class="text-3xl sm:text-4xl font-headline font-bold text-white tracking-tight">
+              Michał Lech
+            </h3>
+<p class="text-sm text-slate-300 font-medium mt-1">
+              Kierownik Okręgu OVB Allfinanz Polska Spółka Finansowa
+            </p>
+<p class="text-sm text-slate-300 mt-4 max-w-md leading-relaxed">
+              Zapraszam na spotkanie stacjonarne w biurze w Kielcach lub wygodną konsultację online z dowolnego miejsca w Polsce.
+            </p>
+<!-- Details List -->
+<div class="mt-8 space-y-4">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-amber-500 text-[22px] shrink-0 mt-0.5">location_on</span>
+<div class="flex flex-col">
+<span class="text-xs text-slate-400 uppercase font-semibold">Adres biura</span>
+<span class="text-sm text-white font-medium">ul. Zagórska 22/11, 25-358 Kielce</span>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-amber-500 text-[22px] shrink-0 mt-0.5">phone_in_talk</span>
+<div class="flex flex-col">
+<span class="text-xs text-slate-400 uppercase font-semibold">Telefon</span>
+<a class="text-sm text-white font-bold hover:text-amber-400 transition-colors" href="tel:+48505035485">
+                    +48 505 035 485
+                  </a>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-amber-500 text-[22px] shrink-0 mt-0.5">mail</span>
+<div class="flex flex-col">
+<span class="text-xs text-slate-400 uppercase font-semibold">Adres e-mail</span>
+<a class="text-sm text-white font-medium hover:text-amber-400 transition-colors" href="mailto:michal.lech@ovb.com.pl">
+                    michal.lech@ovb.com.pl
+                  </a>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-amber-500 text-[22px] shrink-0 mt-0.5">schedule</span>
+<div class="flex flex-col">
+<span class="text-xs text-slate-400 uppercase font-semibold">Godziny pracy</span>
+<span class="text-sm text-white font-medium">Poniedziałek – Piątek: 08:00 – 18:00</span>
+</div>
+</div>
+</div>
+<!-- Social Media & Partner note -->
+<div class="mt-8 flex items-center gap-4">
+<a aria-label="Facebook Michał Lech OVB" class="w-10 h-10 rounded-xl bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center text-white transition-colors" href="https://facebook.com" rel="noopener noreferrer" target="_blank">
+<svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+<path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path>
+</svg>
+</a>
+<span class="text-xs text-slate-400">Partner OVB Allfinanz Polska Spółka Finansowa</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Quick Footer Contact Form -->
+<div class="lg:col-span-6 bg-slate-900/60 p-8 sm:p-10 rounded-3xl border border-slate-800 shadow-inner">
+<div class="flex flex-col">
+<h4 class="text-2xl font-headline font-bold text-white">Masz pytania? Skontaktuj się bezpośrednio</h4>
+<p class="text-xs text-slate-300 mt-2 leading-relaxed">
+              Zostaw wiadomość, a wrócę do Ciebie z wyczerpującą odpowiedzią lub propozycją dogodnego terminu rozmowy.
+            </p>
+</div>
+<form class="mt-6 flex flex-col gap-4" onsubmit="event.preventDefault(); alert('Wiadomość została wysłana pomyślnie. Dziękuję!');">
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold text-slate-200" for="footer-name">Imię i nazwisko</label>
+<input class="w-full px-4 py-3 bg-slate-800/80 border border-slate-700 text-white placeholder:text-slate-400 text-sm rounded-xl focus:outline-none focus:bg-slate-800 focus:border-amber-500 transition-colors" id="footer-name" placeholder="np. Anna Nowak" required="" type="text">
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold text-slate-200" for="footer-phone">Numer telefonu</label>
+<input class="w-full px-4 py-3 bg-slate-800/80 border border-slate-700 text-white placeholder:text-slate-400 text-sm rounded-xl focus:outline-none focus:bg-slate-800 focus:border-amber-500 transition-colors" id="footer-phone" placeholder="+48 ___ ___ ___" required="" type="tel">
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold text-slate-200" for="footer-msg">Wiadomość</label>
+<textarea class="w-full px-4 py-3 bg-slate-800/80 border border-slate-700 text-white placeholder:text-slate-400 text-sm rounded-xl focus:outline-none focus:bg-slate-800 focus:border-amber-500 transition-colors resize-none" id="footer-msg" placeholder="W czym mogę pomóc? (np. kalkulacja raty, audyt polisy na życie...)" required="" rows="3"></textarea>
+</div>
+<button class="mt-2 w-full py-3.5 px-6 bg-amber-600 hover:bg-amber-500 text-white font-headline font-bold text-sm tracking-wide rounded-xl shadow-md transition-all flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Wyślij wiadomość</span>
+</button>
+</form>
+</div>
+</div>
+<!-- Bottom copyright & legal -->
+<div class="mt-14 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+<p>© 2024 Michał Lech – Kierownik Okręgu OVB Allfinanz Polska. Wszelkie prawa zastrzeżone.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-white transition-colors" href="#">Polityka prywatności &amp; RODO</a>
+<a class="hover:text-white transition-colors" href="#">Zastrzeżenia prawne</a>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-slate-50 border-t border-slate-200"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-10"><div class="md:col-span-2 flex flex-col gap-4"><div class="flex items-center gap-3"><img alt="Michał Lech - Kierownik Okręgu OVB" class="h-11 w-auto object-contain" src="assety/obraz_1.jpg"></div><p class="text-sm text-slate-600 max-w-md leading-relaxed">Niezależne doradztwo finansowe i ubezpieczeniowe. Dopasowujemy rozwiązania kapitałowe, emerytalne i ochronne dopasowane precyzyjnie do Twoich planów życiowych.</p></div><div class="flex flex-col gap-3"><span class="text-xs font-headline font-semibold text-[#0F2744] uppercase tracking-wider">Nawigacja</span><a class="text-sm text-slate-600 hover:text-primary transition-colors" data-path="strona-glowna" href="#">Strona główna</a><a class="text-sm text-slate-600 hover:text-primary transition-colors" data-path="uslugi" href="#">Usługi</a><a class="text-sm text-slate-600 hover:text-primary transition-colors" data-path="o-mnie" href="#">O mnie</a><a class="text-sm text-slate-600 hover:text-primary transition-colors" data-path="kontakt" href="#">Kontakt</a></div><div class="flex flex-col gap-3"><span class="text-xs font-headline font-semibold text-[#0F2744] uppercase tracking-wider">Kontakt bezpośredni</span><a class="text-sm text-slate-600 hover:text-primary transition-colors" href="tel:+48505035485">+48 505 035 485</a><span class="text-sm text-slate-600">biuro@michallech-ovb.pl</span><span class="text-sm text-slate-600">OVB Allfinanz Polska Spółka Finansowa</span></div></div><div class="mt-12 pt-8 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500"><p>© 2024 Michał Lech - Kierownik Okręgu OVB. Wszelkie prawa zastrzeżone.</p><div class="flex items-center gap-6"><a class="hover:text-primary transition-colors" href="#">Polityka prywatności</a><a class="hover:text-primary transition-colors" href="#">Nota prawna</a></div></div></div></footer></body></html>
